@@ -13,7 +13,7 @@ export class HeroebioComponent implements OnInit {
   constructor(private _heroesServicie: HeroesService, private activatedRoute: ActivatedRoute) {
     this.activatedRoute.params.subscribe(params => {
       this.heroe = this._heroesServicie.getHeroe(params['id']);
-      console.log(this.heroe);
+      //console.log(this.heroe);
     });
   }
 
