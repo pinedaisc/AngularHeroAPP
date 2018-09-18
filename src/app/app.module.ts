@@ -14,6 +14,7 @@ import { APP_ROUTING } from './app.routes';
 import { HeroesService } from './services/heroes.service';
 import { HeroebioComponent } from './components/heroebio/heroebio.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 
@@ -25,7 +26,8 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
     AboutComponent,
     HeroesComponent,
     HeroebioComponent,
-    BusquedaComponent
+    BusquedaComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
